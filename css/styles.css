@@ -136,7 +136,6 @@ img {
 }
 .section-first {
   background-image: linear-gradient(
-      to right,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
@@ -148,6 +147,7 @@ img {
   background-size: 1440px;
   background-size: cover;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  max-width: 1440px;
 }
 
 .title {
