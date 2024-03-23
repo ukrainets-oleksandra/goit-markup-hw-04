@@ -135,11 +135,11 @@ img {
 }
 .section-first {
   background-image: linear-gradient(
+      to right,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-name.jpeg);
-  max-width: 1440px;
+    url(../images/img10.jpg);
   height: 600px;
   padding: 188px 0;
   background-repeat: no-repeat;
@@ -176,7 +176,6 @@ img {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 48px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-first-btn:hover,
@@ -452,7 +451,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icons:hover,
